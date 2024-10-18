@@ -34,9 +34,14 @@ let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/
 let subProtocol = 'https';
 let RproxyIP = 'false';
 
-let addressesapi = [];
-let addressescsv = [];
-let DLS = 8;
+let addressesapi = [
+	'https://github.com/hxjkqk/202402028/blob/main/addressesapi.txt' //可参考内容格式 自行搭建。
+];
+
+let DLS = 4;//速度下限
+let addressescsv = [
+	//'https://github.com/hxjkqk/202402028/blob/main/addressescsv.csv' //iptest测速结果文件。
+];
 
 let FileName = 'epeius';
 let BotToken ='';
